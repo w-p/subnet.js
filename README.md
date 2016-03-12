@@ -1,11 +1,15 @@
 
 
-### subnet.js
+## subnet.js
 
-Calculates subnets
-Requires lodash
+Calculates subnets.
 
-Example:
+__Requires lodash__
+
+See it in action [here](https://s3.amazonaws.com/subnet-calc/index.html).
+
+
+Example usage and output:
 
 ```
 var ip = new subnet.Ipv4('10.0.32.123', 19);
